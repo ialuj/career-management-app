@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Background from "./Background";
 import Header from "./Header";
 
-function App() {
+function App(props) {
   return (
     <>
       <Background />

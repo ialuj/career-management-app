@@ -1,10 +1,13 @@
 import React from "react";
 
-const Career = () => {
+const Career = (props) => {
   return (
     <>
       <div>
-        <h1>Welcome to Career Management Application</h1>
+        <h1>
+          {props.location.state.loggedUser.username} Welcome to Career
+          Management Application
+        </h1>
       </div>
     </>
   );
